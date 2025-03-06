@@ -1,0 +1,30 @@
+# Ignorisanje binarnih fajlova i kompajliranog koda
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+*.pyc
+*.pyo
+*.pdb
+
+# Ignorisanje konfiguracionih fajlova i privremenih podataka
+.env
+*.log
+*.tmp
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Ignorisanje dependency foldera
+node_modules/
+venv/
+__pycache__/
+.idea/
+.vscode/
+
+# Ignorisanje Git fajlova koji nisu potrebni za pull request
+.gitignore
+.gitattributes
